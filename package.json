@@ -1,0 +1,27 @@
+{
+  "name": "MemberApp",
+  "version": "1.0.0",
+  "description": "A small application with node.js and express. A user will be able to add people's basic information to a page.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir-bogomolov/MemberApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimir-bogomolov/MemberApp/issues"
+  },
+  "homepage": "https://github.com/vladimir-bogomolov/MemberApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "moment": "^2.29.0",
+    "uuid": "^8.3.1"
+  }
+}
